@@ -11,7 +11,6 @@ const VideoDetails = () => {
   const [videoDetails, setVideoDetails] = useState({} as VideoDetail);
   const [channelDetails, setChannelDetails] = useState({} as Channel);
   const [videos, setVideos] = useState({} as VideosProp);
-  console.log(videos);
 
   const getDetails = (channelId: string): void => {
     getData(`channels?part=snippet&id=${channelId}`).then((data) =>

@@ -58,7 +58,7 @@ const ChannelDetails = () => {
           )}
         </div>
       </div>
-      <div className="p-20">
+      <div className="container mt-20">
         <h2 className="text-4xl text-[--primary] text-center font-bold mb-10">
           VIDEOS
         </h2>
