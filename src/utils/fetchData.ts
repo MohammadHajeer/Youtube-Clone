@@ -1,4 +1,8 @@
+// import dotenv from 'dotenv';
+// dotenv.config()
 import axios from "axios";
+
+
 
 
 const BASE_URL: string = 'https://youtube-v31.p.rapidapi.com';
@@ -8,7 +12,7 @@ const options = {
     maxResults: '20'
   },
   headers: {
-    'X-RapidAPI-Key': import.meta.env.VITE_RAPID_API_KEY,
+    'X-RapidAPI-Key': process.env.VITE_RAPID_API_KEY,
     'X-RapidAPI-Host': 'youtube-v31.p.rapidapi.com'
   }
 };
