@@ -69,7 +69,7 @@ const Link = ({
       onClick={() => setActiveChannel({ name: name, category: category })}
       className={`shadow-xl max-md:w-fit flex items-center gap-5 py-4 px-6 rounded-lg cursor-pointer flex-none relative ${
         name === activeChannel.name ? "bg-[--primary]" : ""
-      } ${menu ? "w-72" : "flex-col w-20 text-center gap-1"}`}
+      } ${menu ? "w-60" : "flex-col w-20 text-center gap-1"}`}
     >
       <i
         className={`${

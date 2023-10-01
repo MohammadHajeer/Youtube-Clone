@@ -28,7 +28,7 @@ const Feed = () => {
       />
       <div
         className={` ${
-          menu ? "md:ml-[400px]" : "md:ml-[200px]"
+          menu ? "md:ml-[350px]" : "md:ml-[200px]"
         } mt-5 max-md:mt-48 max-sm:mt-60 p-5 transition-all  w-full`}
       >
         <h2 className="text-4xl font-semibold max-md:text-center">
